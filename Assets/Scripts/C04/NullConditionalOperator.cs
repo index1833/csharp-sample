@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class NullConditionalOperator : MonoBehaviour
 {
+
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -15,6 +17,8 @@ public class NullConditionalOperator : MonoBehaviour
         Debug.Log($"{a?[1]}");
 
         a = new ArrayList(); // 더이상 a는 null 이 아니다 . 
+
+         // class ---> 메모리상에 올라가면 Object가됌
 
         a?.Add("야구");
         a?.Add("축구");
